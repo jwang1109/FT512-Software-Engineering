@@ -1,0 +1,1 @@
+The outline of flaskr updation is correct. However, the time cost of one paticular step is much higher than expected. The reason is because I am not familiar with GET and POST in flaskr. Next time, I should understand related functionalities  before start coding.

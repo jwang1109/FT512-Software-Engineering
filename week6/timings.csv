@@ -1,0 +1,6 @@
+# Format: netid, week, Activity (Read/Watch/Do/Coding/...), time in minutes (e.g. 2 hours and 45 minutes would be recorded as 165)
+# example row: pjm52, week1, Read, 180
+jw822, week6, Read, extra credit, 120
+jw822, week6, Do, chinook, 60
+jw822, week6, Read, Reading && Video, 100
+jw822, week6, Do, update flaskr, 365
