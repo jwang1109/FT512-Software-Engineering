@@ -1,0 +1,10 @@
+# Format: netid, week, Activity (Read/Watch/Do/Coding/...), time in minutes (e.g. 2 hours and 45 minutes would be recorded as 165)
+# example row: pjm52, week1, Read, 180
+jw822,week4,Read, Extra Credit,60
+jw822,week4,Watch, SOLID, 90
+jw822,week4,Do, Flask tutorial,120
+jw822,week4,DO, Detail View, 90
+jw822,week4,Do, Detail view sequence,45
+jw822,week4,Do, Flask class, 120
+jw822,week4,Do, mvc pattern, 20
+jw822,week4,Do, Usecase for Bigbuck,90

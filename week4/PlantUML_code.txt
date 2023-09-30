@@ -1,0 +1,176 @@
+--------Detail view sequence diagram-----------
+@startuml
+Browser->WSGI:send view detail request
+WSGI->Blueprint: view detail
+Blueprint->Database:select data from post by post_id
+Database->Blueprint:Send back the post
+Blueprint->Jinja2: render templates
+Jinja2->Routes: convert URL
+Routes->WSGI:send view detail response
+WSGI->Browser:render webpage
+@enduml
+
+
+
+--------Flask class diagram--------
+
+@startuml
+note "Author: Jiarun Wang  NetID:jw822" as N1
+entity app{
++Routes
++convertURL()
+}
+class WSGI{
++parseRequest()
++ParseResponse()
+}
+class Browser{
++sendRequest()
++receiveResponse()
+}
+class HTTPRequest{
++data_type
++URL
++request method
+}
+class Templates{
+css
+html
+Javascript
+}
+class Server{
++port
++ip_address
++sendResponse()
++receiveRequest()
+}
+class HTTPResponse{
++status code
++data
+}
+class Flask{
+Blueprint
+Jinja2
+Routes
++getConfiguration()
++WSGI()
+}
+class WSGI{
+}
+class Blueprint{
++object_name
++location
++url_prefix
++route()
+}
+entity auth{
++register()
++login()
++load_logged_in_user()
++logout()
++login_required()
+}
+entity blog{
++index()
++create()
++update()
++detail()
++delete()
+}
+class Jinja2{
+}
+
+entity Database{
++posts
+-users
+}
+entity user{
+-user_id
+-password
+}
+class Routes{
+render_templates()
+}
+entity post{
++post_id
++post_title
++post_body
+}
+app --|>Flask
+app *-- blog
+app *-- auth
+auth --|>Blueprint
+blog--|>Blueprint
+Browser <--> HTTPRequest
+Database -- app
+Database -- auth
+Database *-- user
+Database *-- post
+Flask *-- Blueprint
+Flask *-- Jinja2
+Flask -- WSGI
+HTTPRequest <--> WSGI
+HTTPResponse <-->WSGI
+HTTPResponse -- Routes
+Jinja2 -- Templates
+Blueprint -- Database
+Routes -- Templates
+Server <--> HTTPResponse
+Routes --* Flask
+blog -- Database
+@enduml
+
+-------Bigbucks usecase Diagram------------
+@startuml
+left to right direction
+actor user
+actor admin
+package Bigbucks{
+usecase "create user account" as b1
+usecase "user login" as b2
+usecase "view market historical data" as b3
+usecase "place orders" as b5
+usecase "place sell orders" as b6
+usecase "run reports" as b8
+usecase "monitor users and trades" as b9
+usecase "visualize data" as b10
+usecase "develop and test" as b11
+usecase "track portfolio" as b12
+usecase "place buy orders" as b13
+usecase "analyze risk-return profile" as b14
+usecase "view historical trading data" as b15
+
+}
+package Database{
+usecase "manage database" as d1 
+}
+
+Database -- Bigbucks
+admin->d1
+user->b1
+user->b2
+user->b3
+user->b5
+user->b6
+user->b8
+admin->b9
+user->b10
+user->b12
+user->b13
+user->b14
+user->b15
+admin ->b11
+
+b5->b12
+b6 --|>b5
+b13 --|>b5
+b2 ..> b1:<<requires>>
+b3 ..> b2:<<requires>>
+b6 ..> b12:<<requires>>
+b5 ..> b2:<<requires>>
+b8 ..> b12:<<requires>>
+b12 ..> b2:<<requires>>
+b14 ..> b12:<<requires>>
+b15 ..> b12:<<requires>>
+b10 ..> b12:<<requires>>
+@enduml
