@@ -6,7 +6,7 @@ Through this course, I honed my programming skills in Python and C++. One of the
 
 ## Warning to Current Students:
 
-If you are a student currently enrolled in the FT510 programming course, **please refrain from viewing or copying any of the solutions within this repository**. Doing so might lead to violations of academic integrity. Always strive to complete your assignments on your own and seek guidance from your instructor if needed.
+If you are a student currently enrolled in the FT512 course, **please refrain from viewing or copying any of the solutions within this repository**. Doing so might lead to violations of academic integrity. Always strive to complete your assignments on your own and seek guidance from your instructor if needed.
 
 ## Many thanks to my teammates in the Bigbucks project: Yuru Chen, Allen Liu, Evie Zheng
 I am the team leader and the architect in this project. Other assignments are individual ones.
