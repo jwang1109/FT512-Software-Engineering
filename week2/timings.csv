@@ -1,0 +1,17 @@
+# Format: netid, week, Activity (Read/Watch/Do/Coding/...), title, time in minutes (e.g. 2 hours and 45 minutes would be recorded as 165)
+# header: netid, week, task, title, minutes
+# example row: pjm52, week1, Read, Bullet, 180
+jw822, week2, Read, What Are Requirements, 80
+jw822, week2, Read, CRC,70
+jw822, week2, Do, simple server, 30
+jw822, week2, Code, gitexercise, 30
+jw822, week2, Write, Requirements, 90
+jw822, week2, Read, HTML Fundamentals, 30
+jw822, week2, Code, modify simple server, 10
+jw822, week2, Read, pragmatic programmer, 70
+jw822, week2, Do, flask, 15
+jw822, week2, Read, CSS, 40
+jw822, week2, Code, CSS,30
+jw822, week2, Read, JavaScript,40
+jw822, week2, Code, JAvaScript,60
+jw822, week2, Write, CRC, 40
