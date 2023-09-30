@@ -1,0 +1,21 @@
+# Code Review
+1. The SLOC of my code is 30. The number of assignments, branches, and conditions in my code is 12, 10, and 8, respectively. Thus the ABC metrics are about 17.
+Compared to my partner, his SLOC is twice mine, but ABC is less than mine. So, he has traded size for simplicity. His program is longer but easier to understand. 
+My partner and I applied conventional programming instead of OOP design. So, most of the principles are for something other than our program. But he does violate two principles.
+* OCP: His program is not Object-Oriented, and he will find it hard to extend the functionality of his code. Also, since he assembles everything in the main function, he may find it easy to cause accidental modification for the program. 
+* DRY: His extract_title and extract_ignore functions have some duplication. Those functions aim to read input, and thus they definitely can be written in one function to reduce duplication.
+
+2. Changeability. Both my and my partner's codes are vulnerable when facing a change. They can only deal with a certain type of input and generate a certain output. We don't apply OOP design, and our code is rigid.
+Unfortunately, changes in the Input format would lead to a failure of our code, or we have to change a lot of our original code.
+
+3. If there is no room for storing all the titles, I have two ways to change our codes. First, we should store those titles on a server, and we fetch data from that server when trying to find a title. To achieve this, we must connect our program with our server properly. The second way I have thought of is to output some meta files to disks. For example, we can output the titles as a CSV file, and when we use titles, we can read them from our disks and then continue. In this case, we need to modify our file a little bit and store those meta files properly.
+
+4. If we are going to add a "rotate/shift" feature to display the keywords in the same output column, we need to change a lot. We need to format our output and know the location of each keyword. Thus, we may end up building a new function to implement that. However, if we revise our design to OOP design, we may only need to use some attributes, which would be much easier.
+
+5. To sort the keywords as they arrive, we need to modify a lot also. This is because our codes are rigid and take input without doing any sortings and changes.
+
+6. I need more effort to test my partner's code. This is because he assembles his functions in the main function. This means that whenever I test his code, I must repeat what he has done in his main function. Any sequential problems or interface problems of replicating the main function may cause a test failure. Even if we get the first test case right, we still need to duplicate the assembling steps for the second test case, violating DRY principles. Also, his code needs to be more flexible and stable. Many sophisticated tests can beat his codes.
+
+7. An explanation for a Flask: Flask is a web architecture that cooperates with Python to talk to browsers and web servers. Flask has WSGI to execute this. WSGI calls Python to parse, send and receive messages from the web server and browser. The response then calls Jinja2 to render a template. The template is a text file that defines how the webpage is going to be presented. Then HTTP response message is passed to the App class, which can map the URL to the content that can be displayed. Finally, the FLASK with web structure defined and web content provided will use WSGI again to display the web page on the browser.
+
+8. My reflection: I'm often proud of my elegant and concise code. However, I find my code is too rigid and fragile in the code review. It resists changes. Any changes from customers (if this is a real-world project) would result in overtime work for me and my colleagues, who might find my code hard to maintain. After this code review, I realized the importance of the OOP design and SOLID principles. It changes my focus from concretely implementing a certain function to a high-level design. I should spend more time designing and should ask more what if. 
