@@ -1,0 +1,108 @@
+{% extends 'home/home.html' %}
+
+{% block title %}
+Transaction Page
+{% endblock %}
+
+{% block content %}
+<script>
+    async function getPrice() {
+      const stockSymbol = document.getElementById("symbol").value;
+      const stockPriceDate = document.getElementById("stock_price_date").value;
+
+      if (stockSymbol && stockPriceDate) {
+          const response = await fetch(`/get_stock_price?symbol=${stockSymbol}&date=${stockPriceDate}`);
+          const data = await response.json();
+          const pricePerShare = data.price;
+          document.getElementById("price_per_share").value = pricePerShare;
+          document.getElementById("total_price").innerHTML = "";
+          calculateTotal();
+      }
+    }
+
+
+    function calculateTotal() {
+        var shares = document.getElementById("shares").value;
+        var pricePerShare = document.getElementById("price_per_share").value;
+        var stockSymbol = document.getElementById("symbol").value;
+        if (pricePerShare !== "") {
+            var total = shares * pricePerShare;
+            document.getElementById("total_price").innerHTML = "Total Price: " + total.toFixed(2);
+        }
+    }
+    document.getElementById("stock_price_date").addEventListener("input", () => {
+      document.getElementById("total_price").innerHTML = "";
+      getPrice();
+    });
+</script>
+<br>
+<h1>Transaction</h1>
+{% if error %}
+<p style="color: red;">{{ error }}</p>
+{% endif %}
+
+<form method="POST" action="/transaction">
+  <div class="form-group">
+    <label for="symbol">Stock Symbol:</label>
+    <input type="text" class="form-control" name="symbol" id="symbol" required pattern="[A-Za-z]+" oninput="getPrice()" title="Please enter a valid stock symbol (letters only)">
+  </div>
+  <input type="hidden" class="form-control" name="price_per_share" id="price_per_share" value="{{ price_per_share }}">
+  <div class="form-group">
+    <label for="type">Transaction Type:</label>
+    <select class="form-control" name="type" id="type" required>
+      <option value="">-- Select Transaction Type --</option>
+      <option value="buy">Buy</option>
+      <option value="sell">Sell</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="stock_price_date">Stock Price Date:</label>
+    <input class="form-control" type="date" name="stock_price_date" id="stock_price_date" required oninput="getPrice()">
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="shares">Number of Shares:</label>
+    <input class="form-control" type="number" name="shares" id="shares" required min="1" oninput="calculateTotal()">
+  </div>
+  <p id="total_price"></p>
+  <div class="button-container">
+    <input type="submit" value="Transact now">
+  </div>
+</form>
+<br>
+<h1>Transaction Record</h1>
+{% if not transactions %}
+<p>No previous transactions found.</p>
+{% else %}
+<table>
+    <thead>
+        <tr>
+            <th>Type</th>
+            <th>Symbol</th>
+            <th>Transaction Date</th>
+            <th>Stock Price Date</th>
+            <th>Price Per Share</th>
+            <th>Shares</th>
+            <th>Cash</th>
+          
+            
+        </tr>
+    </thead>
+    <tbody>
+        {% for transaction in transactions %}
+        <tr>
+            <td>{{ transaction.type }}</td>
+            <td>{{ transaction.symbol }}</td>
+            <td>{{ transaction.timestmp[:19] }}</td>
+            <td>{{ transaction.stockPriceDate }}</td>
+            <td>{{ '{:.2f}'.format(transaction.pricePerShare) }}</td>
+            <td>{{ transaction.shares }}</td>
+            <td>{{ '{:.2f}'.format(transaction.pricePerShare * transaction.shares) }}</td>
+	    
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+{% endblock %}
+

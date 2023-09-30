@@ -1,0 +1,911 @@
+2023-04-17T12:41:16-0400 [INFO] Added job "Update database" to job store "default"
+2023-04-17T12:41:16-0400 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-17T12:41:16-0400 [INFO] [33mPress CTRL+C to quit[0m
+2023-04-17T12:41:16-0400 [INFO]  * Restarting with watchdog (fsevents)
+2023-04-17T12:41:23-0400 [INFO] Added job "Update database" to job store "default"
+2023-04-17T12:41:23-0400 [WARNING]  * Debugger is active!
+2023-04-17T12:41:23-0400 [INFO]  * Debugger PIN: 113-353-750
+2023-04-17T12:42:10-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 12:42:10] "GET / HTTP/1.1" 200 -
+2023-04-17T12:42:10-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 12:42:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T12:42:10-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 12:42:10] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-17T12:42:12-0400 [INFO] [Function: symbol] Accessing admin holdings
+2023-04-17T12:42:12-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 12:42:12] "GET /symbol/admin_holdings HTTP/1.1" 200 -
+2023-04-17T12:42:12-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 12:42:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T12:42:13-0400 [INFO] [Function: symbol] Accessing admin orders
+2023-04-17T12:42:13-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 12:42:13] "GET /symbol/admin_orders HTTP/1.1" 200 -
+2023-04-17T12:42:13-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 12:42:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T12:42:13-0400 [INFO] [Function: symbol] Accessing admin profile form
+2023-04-17T12:42:13-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 12:42:13] "GET /symbol/overall_profile HTTP/1.1" 200 -
+2023-04-17T12:42:13-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 12:42:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T12:42:15-0400 [INFO] [Function: symbol] Accessing admin orders
+2023-04-17T12:42:15-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 12:42:15] "GET /symbol/admin_orders HTTP/1.1" 200 -
+2023-04-17T12:42:15-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 12:42:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T12:42:20-0400 [INFO] [Function: symbol] Accessing admin orders
+2023-04-17T12:42:20-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 12:42:20] "POST /symbol/admin_orders HTTP/1.1" 200 -
+2023-04-17T12:42:20-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 12:42:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:18:43-0400 [INFO] Added job "Update database" to job store "default"
+2023-04-17T19:18:44-0400 [INFO] [Function: alvant] History price retrieved for symbol: AMZN
+2023-04-17T19:18:55-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: AMZN
+2023-04-17T19:19:06-0400 [INFO] [Function: alvant] History price retrieved for symbol: MSFT
+2023-04-17T19:19:17-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: MSFT
+2023-04-17T19:19:29-0400 [INFO] [Function: alvant] History price retrieved for symbol: GOOGL
+2023-04-17T19:19:40-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: GOOGL
+2023-04-17T19:19:51-0400 [INFO] [Function: alvant] History price retrieved for symbol: JPM
+2023-04-17T19:20:03-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: JPM
+2023-04-17T19:20:14-0400 [INFO] [Function: alvant] History price retrieved for symbol: NFLX
+2023-04-17T19:20:25-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: NFLX
+2023-04-17T19:20:37-0400 [INFO] [Function: alvant] History price retrieved for symbol: V
+2023-04-17T19:20:48-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: V
+2023-04-17T19:20:59-0400 [INFO] [Function: alvant] History price retrieved for symbol: NKE
+2023-04-17T19:21:10-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: NKE
+2023-04-17T19:21:21-0400 [INFO] Scheduler has been shut down
+2023-04-17T19:22:00-0400 [INFO] Added job "Update database" to job store "default"
+2023-04-17T19:22:00-0400 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-17T19:22:00-0400 [INFO] [33mPress CTRL+C to quit[0m
+2023-04-17T19:22:07-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:07] "GET / HTTP/1.1" 200 -
+2023-04-17T19:22:07-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:07] "GET /static/style.css HTTP/1.1" 200 -
+2023-04-17T19:22:07-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:07] "GET /static/logo/dark.png HTTP/1.1" 200 -
+2023-04-17T19:22:07-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:07] "GET / HTTP/1.1" 200 -
+2023-04-17T19:22:07-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:22:07-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:07] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-17T19:22:07-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-04-17T19:22:15-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:15] "GET /auth/login HTTP/1.1" 200 -
+2023-04-17T19:22:15-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:15] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-17T19:22:15-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:22:18-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:18] "POST /auth/login HTTP/1.1" 200 -
+2023-04-17T19:22:18-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:22:18-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:18] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-17T19:22:19-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:19] "GET /auth/register HTTP/1.1" 200 -
+2023-04-17T19:22:19-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:22:19-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:19] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-17T19:22:54-0400 [INFO] [Function: register] User chen1 registered successfully.
+2023-04-17T19:22:54-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:54] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2023-04-17T19:22:54-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:54] "GET /auth/login HTTP/1.1" 200 -
+2023-04-17T19:22:54-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:22:54-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:54] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-17T19:22:58-0400 [INFO] [Function: login] User chen1 logged in.
+2023-04-17T19:22:58-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:58] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-04-17T19:22:58-0400 [INFO] [Function: home] Accessing the home page
+2023-04-17T19:22:58-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-17T19:22:58-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:58] "GET /home HTTP/1.1" 200 -
+2023-04-17T19:22:58-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:22:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:23:01-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:23:01] "GET /transaction HTTP/1.1" 200 -
+2023-04-17T19:23:01-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:23:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:23:09-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:23:09] "GET /get_stock_price?symbol=AAPL&date=2023-04-01 HTTP/1.1" 200 -
+2023-04-17T19:23:10-0400 [INFO] [Function: alvant] Market price retrieved for symbol: AAPL
+2023-04-17T19:23:11-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:23:11] "GET /get_stock_price?symbol=AAPL&date=2023-04-17 HTTP/1.1" 200 -
+2023-04-17T19:23:12-0400 [INFO] [Function: alvant] History price retrieved for symbol: AAPL
+2023-04-17T19:23:23-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: AAPL
+2023-04-17T19:23:35-0400 [INFO] [Function: alvant] Market price retrieved for symbol: AAPL
+2023-04-17T19:23:36-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:23:36] "POST /transaction HTTP/1.1" 200 -
+2023-04-17T19:23:36-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:23:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:24:08-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:24:08] "GET /get_stock_price?symbol=AAPL&date=2023-04-01 HTTP/1.1" 200 -
+2023-04-17T19:24:09-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:24:09] "GET /get_stock_price?symbol=AAPL&date=2023-04-15 HTTP/1.1" 200 -
+2023-04-17T19:24:11-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:24:11] "POST /transaction HTTP/1.1" 200 -
+2023-04-17T19:24:11-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:24:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:24:19-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:24:19] "GET /get_stock_price?symbol=AAPL&date=2021-01-02 HTTP/1.1" 200 -
+2023-04-17T19:24:19-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:24:19] "GET /get_stock_price?symbol=AAPL&date=2021-01-20 HTTP/1.1" 200 -
+2023-04-17T19:24:22-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:24:22] "POST /transaction HTTP/1.1" 200 -
+2023-04-17T19:24:22-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:24:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:25:21-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:25:21] "GET /get_stock_price?symbol=AAPL&date=2023-04-01 HTTP/1.1" 200 -
+2023-04-17T19:25:21-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:25:21] "GET /get_stock_price?symbol=AAPL&date=2023-04-14 HTTP/1.1" 200 -
+2023-04-17T19:25:23-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:25:23] "POST /transaction HTTP/1.1" 200 -
+2023-04-17T19:25:23-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:25:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:25:39-0400 [INFO] [Function: home] Accessing the home page
+2023-04-17T19:25:39-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-17T19:25:39-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-17T19:25:39-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:25:39] "GET /home HTTP/1.1" 200 -
+2023-04-17T19:25:39-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:25:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:25:47-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:25:47] "GET /transaction HTTP/1.1" 200 -
+2023-04-17T19:25:47-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:25:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:26:04-0400 [INFO] [Function: home] Accessing the home page
+2023-04-17T19:26:04-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-17T19:26:05-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-17T19:26:05-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:26:05] "GET /home HTTP/1.1" 200 -
+2023-04-17T19:26:05-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:26:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:26:47-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:26:47] "GET /transaction HTTP/1.1" 200 -
+2023-04-17T19:26:47-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:26:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:26:57-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:26:57] "GET /get_stock_price?symbol=AAPL&date=2023-04-01 HTTP/1.1" 200 -
+2023-04-17T19:26:58-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:26:58] "GET /get_stock_price?symbol=AAPL&date=2023-04-11 HTTP/1.1" 200 -
+2023-04-17T19:27:00-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:27:00] "POST /transaction HTTP/1.1" 200 -
+2023-04-17T19:27:00-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:27:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:27:55-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:27:55] "GET /get_stock_price?symbol=AAPL&date=2023-04-01 HTTP/1.1" 200 -
+2023-04-17T19:28:02-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:28:02] "GET /get_stock_price?symbol=AAPL&date=2023-02-01 HTTP/1.1" 200 -
+2023-04-17T19:28:04-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:28:04] "POST /transaction HTTP/1.1" 200 -
+2023-04-17T19:28:04-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:28:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:28:40-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:28:40] "GET /get_stock_price?symbol=tsla&date=2021-04-02 HTTP/1.1" 200 -
+2023-04-17T19:28:40-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:28:40] "GET /get_stock_price?symbol=tsla&date=2021-04-27 HTTP/1.1" 200 -
+2023-04-17T19:28:44-0400 [INFO] [Function: alvant] History price retrieved for symbol: TSLA
+2023-04-17T19:28:55-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: TSLA
+2023-04-17T19:29:06-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:29:06] "POST /transaction HTTP/1.1" 200 -
+2023-04-17T19:29:06-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:29:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:29:27-0400 [INFO] [Function: home] Accessing the home page
+2023-04-17T19:29:27-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-17T19:29:27-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-17T19:29:27-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:29:27] "GET /home HTTP/1.1" 200 -
+2023-04-17T19:29:27-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:29:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:29:40-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:29:40] "GET /transaction HTTP/1.1" 200 -
+2023-04-17T19:29:40-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:29:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:30:02-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:30:02] "GET /get_stock_price?symbol=NFLX&date=2019-04-02 HTTP/1.1" 200 -
+2023-04-17T19:30:02-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:30:02] "GET /get_stock_price?symbol=NFLX&date=2019-04-23 HTTP/1.1" 200 -
+2023-04-17T19:30:14-0400 [INFO] [Function: alvant] History price retrieved for symbol: NFLX
+2023-04-17T19:30:25-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: NFLX
+2023-04-17T19:30:36-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:30:36] "POST /transaction HTTP/1.1" 200 -
+2023-04-17T19:30:36-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:30:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:31:02-0400 [INFO] [Function: home] Accessing the home page
+2023-04-17T19:31:02-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-17T19:31:02-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-17T19:31:02-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:02] "GET /home HTTP/1.1" 200 -
+2023-04-17T19:31:02-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:31:09-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:09] "GET /transaction HTTP/1.1" 200 -
+2023-04-17T19:31:09-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:31:19-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:19] "GET /get_stock_price?symbol=NFLX&date=2023-04-01 HTTP/1.1" 200 -
+2023-04-17T19:31:20-0400 [INFO] [Function: alvant] Market price retrieved for symbol: NFLX
+2023-04-17T19:31:21-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:21] "GET /get_stock_price?symbol=NFLX&date=2023-04-17 HTTP/1.1" 200 -
+2023-04-17T19:31:32-0400 [INFO] [Function: alvant] Market price retrieved for symbol: NFLX
+2023-04-17T19:31:33-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:33] "POST /transaction HTTP/1.1" 200 -
+2023-04-17T19:31:33-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:31:41-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:41] "GET /charting HTTP/1.1" 200 -
+2023-04-17T19:31:41-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:31:56-0400 [INFO] [Function: charting] Generating a chart
+2023-04-17T19:31:56-0400 [INFO] [Function: charting] Generated a today_vs_yesterday_returns chart for AAPL from 2022-01-15 to 2023-01-15
+2023-04-17T19:31:56-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:56] "POST /charting HTTP/1.1" 200 -
+2023-04-17T19:31:56-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:31:59-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:59] "GET /portfolio HTTP/1.1" 200 -
+2023-04-17T19:31:59-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:31:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:32:05-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:05] "GET /transaction HTTP/1.1" 200 -
+2023-04-17T19:32:05-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:32:06-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:06] "GET /transaction HTTP/1.1" 200 -
+2023-04-17T19:32:06-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:32:07-0400 [INFO] [Function: home] Accessing the home page
+2023-04-17T19:32:08-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-17T19:32:08-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-17T19:32:08-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:08] "GET /home HTTP/1.1" 200 -
+2023-04-17T19:32:08-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:32:26-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:26] "GET /transaction HTTP/1.1" 200 -
+2023-04-17T19:32:26-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:32:34-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:34] "GET /get_stock_price?symbol=NFLX&date=2023-01-01 HTTP/1.1" 200 -
+2023-04-17T19:32:34-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:34] "GET /get_stock_price?symbol=NFLX&date=2023-01-15 HTTP/1.1" 200 -
+2023-04-17T19:32:37-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:37] "POST /transaction HTTP/1.1" 200 -
+2023-04-17T19:32:37-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:32:45-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:45] "GET /get_stock_price?symbol=AAPL&date=2023-04-01 HTTP/1.1" 200 -
+2023-04-17T19:32:46-0400 [INFO] [Function: alvant] Market price retrieved for symbol: AAPL
+2023-04-17T19:32:47-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:47] "GET /get_stock_price?symbol=AAPL&date=2023-04-17 HTTP/1.1" 200 -
+2023-04-17T19:32:51-0400 [INFO] [Function: alvant] Market price retrieved for symbol: AAPL
+2023-04-17T19:32:52-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:52] "POST /transaction HTTP/1.1" 200 -
+2023-04-17T19:32:52-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:32:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:33:01-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:33:01] "GET /get_stock_price?symbol=AAPL&date=2023-04-02 HTTP/1.1" 200 -
+2023-04-17T19:33:14-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:33:14] "GET /get_stock_price?symbol=AAPL&date=2023-02-02 HTTP/1.1" 200 -
+2023-04-17T19:33:19-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:33:19] "POST /transaction HTTP/1.1" 200 -
+2023-04-17T19:33:19-0400 [INFO] 127.0.0.1 - - [17/Apr/2023 19:33:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-17T19:33:27-0400 [INFO] Scheduler has been shut down
+2023-04-20T13:41:40-0400 [INFO] Added job "Update database" to job store "default"
+2023-04-20T13:41:40-0400 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-20T13:41:40-0400 [INFO] [33mPress CTRL+C to quit[0m
+2023-04-20T13:41:42-0400 [INFO] Scheduler has been shut down
+2023-04-20T13:41:48-0400 [INFO] Added job "Update database" to job store "default"
+2023-04-20T13:41:48-0400 [INFO] [Function: alvant] History price retrieved for symbol: AMZN
+2023-04-20T13:42:00-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: AMZN
+2023-04-20T13:42:11-0400 [INFO] [Function: alvant] History price retrieved for symbol: MSFT
+2023-04-20T13:42:22-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: MSFT
+2023-04-20T13:42:34-0400 [INFO] [Function: alvant] History price retrieved for symbol: GOOGL
+2023-04-20T13:42:45-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: GOOGL
+2023-04-20T13:42:56-0400 [INFO] [Function: alvant] History price retrieved for symbol: JPM
+2023-04-20T13:43:07-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: JPM
+2023-04-20T13:43:19-0400 [INFO] [Function: alvant] History price retrieved for symbol: NFLX
+2023-04-20T13:43:30-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: NFLX
+2023-04-20T13:43:41-0400 [INFO] [Function: alvant] History price retrieved for symbol: V
+2023-04-20T13:43:52-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: V
+2023-04-20T13:44:04-0400 [INFO] [Function: alvant] History price retrieved for symbol: NKE
+2023-04-20T13:44:15-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: NKE
+2023-04-20T13:44:27-0400 [INFO] [Function: alvant] History price retrieved for symbol: SPY
+2023-04-20T13:44:38-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: SPY
+2023-04-20T13:44:49-0400 [INFO] [Function: alvant] History price retrieved for symbol: META
+2023-04-20T13:45:00-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: META
+2023-04-20T13:45:12-0400 [INFO] [Function: alvant] History price retrieved for symbol: AAPL
+2023-04-20T13:45:23-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: AAPL
+2023-04-20T13:45:34-0400 [INFO] [Function: alvant] History price retrieved for symbol: TSLA
+2023-04-20T13:45:45-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: TSLA
+2023-04-20T13:45:57-0400 [INFO] Scheduler has been shut down
+2023-04-20T13:48:41-0400 [INFO] Added job "Update database" to job store "default"
+2023-04-20T13:48:41-0400 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-20T13:48:41-0400 [INFO] [33mPress CTRL+C to quit[0m
+2023-04-20T13:48:42-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:48:42] "GET / HTTP/1.1" 200 -
+2023-04-20T13:48:42-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:48:42] "GET /static/style.css HTTP/1.1" 200 -
+2023-04-20T13:48:42-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:48:42] "GET /static/logo/dark.png HTTP/1.1" 200 -
+2023-04-20T13:51:50-0400 [INFO] Scheduler has been shut down
+2023-04-20T13:51:53-0400 [INFO] Added job "Update database" to job store "default"
+2023-04-20T13:51:53-0400 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-20T13:51:53-0400 [INFO] [33mPress CTRL+C to quit[0m
+2023-04-20T13:51:59-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:51:59] "GET / HTTP/1.1" 200 -
+2023-04-20T13:51:59-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:51:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T13:51:59-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:51:59] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T13:52:05-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:05] "GET /auth/login HTTP/1.1" 200 -
+2023-04-20T13:52:05-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T13:52:05-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:05] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T13:52:07-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:07] "POST /auth/login HTTP/1.1" 200 -
+2023-04-20T13:52:07-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T13:52:07-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:07] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T13:52:09-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:09] "GET /auth/register HTTP/1.1" 200 -
+2023-04-20T13:52:09-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T13:52:09-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:09] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T13:52:31-0400 [INFO] [Function: register] User team o registered successfully.
+2023-04-20T13:52:31-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:31] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2023-04-20T13:52:31-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:31] "GET /auth/login HTTP/1.1" 200 -
+2023-04-20T13:52:31-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T13:52:31-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:31] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T13:52:43-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:43] "POST /auth/login HTTP/1.1" 200 -
+2023-04-20T13:52:43-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:43] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T13:52:43-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T13:52:50-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:50] "POST /auth/login HTTP/1.1" 200 -
+2023-04-20T13:52:50-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T13:52:50-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:50] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T13:52:54-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:54] "POST /auth/login HTTP/1.1" 200 -
+2023-04-20T13:52:54-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T13:52:54-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:52:54] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T13:53:03-0400 [INFO] [Function: login] User team o logged in.
+2023-04-20T13:53:03-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:53:03] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-04-20T13:53:03-0400 [INFO] [Function: home] Accessing the home page
+2023-04-20T13:53:03-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-20T13:53:03-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:53:03] "GET /home HTTP/1.1" 200 -
+2023-04-20T13:53:03-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 13:53:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T14:33:48-0400 [INFO] [Function: logout] User logged out.
+2023-04-20T14:33:48-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:33:48] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2023-04-20T14:33:48-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:33:48] "GET / HTTP/1.1" 200 -
+2023-04-20T14:33:48-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:33:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T14:33:48-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:33:48] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T14:38:02-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:38:02] "GET / HTTP/1.1" 200 -
+2023-04-20T14:38:02-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:38:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T14:38:02-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:38:02] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T14:44:04-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:44:04] "GET / HTTP/1.1" 200 -
+2023-04-20T14:44:04-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:44:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T14:44:04-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:44:04] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T14:58:16-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:58:16] "GET /auth/register HTTP/1.1" 200 -
+2023-04-20T14:58:16-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:58:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T14:58:16-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:58:16] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T14:58:56-0400 [INFO] [Function: register] User d registered successfully.
+2023-04-20T14:58:56-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:58:56] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2023-04-20T14:58:56-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:58:56] "GET /auth/login HTTP/1.1" 200 -
+2023-04-20T14:58:56-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:58:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T14:58:56-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:58:56] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T14:59:06-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:06] "POST /auth/login HTTP/1.1" 200 -
+2023-04-20T14:59:06-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T14:59:06-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:06] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T14:59:10-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:10] "GET /auth/login HTTP/1.1" 200 -
+2023-04-20T14:59:11-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:11] "GET /auth/register HTTP/1.1" 200 -
+2023-04-20T14:59:56-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:56] "GET /auth/register HTTP/1.1" 200 -
+2023-04-20T14:59:56-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T14:59:56-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:56] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T14:59:57-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:57] "GET / HTTP/1.1" 200 -
+2023-04-20T14:59:57-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T14:59:57-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:57] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T14:59:58-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:58] "GET / HTTP/1.1" 200 -
+2023-04-20T14:59:58-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T14:59:58-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 14:59:58] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:00:19-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:00:19] "GET / HTTP/1.1" 200 -
+2023-04-20T15:00:19-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:00:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:00:19-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:00:19] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:00:54-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:00:54] "GET /auth/register HTTP/1.1" 200 -
+2023-04-20T15:00:54-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:00:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:00:54-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:00:54] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:01:35-0400 [INFO] [Function: register] User 1 registered successfully.
+2023-04-20T15:01:35-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:01:35] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2023-04-20T15:01:35-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:01:35] "GET /auth/login HTTP/1.1" 200 -
+2023-04-20T15:01:36-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:01:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:01:36-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:01:36] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:01:52-0400 [INFO] [Function: login] User 1 logged in.
+2023-04-20T15:01:52-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:01:52] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-04-20T15:01:52-0400 [INFO] [Function: home] Accessing the home page
+2023-04-20T15:01:52-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-20T15:01:52-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:01:52] "GET /home HTTP/1.1" 200 -
+2023-04-20T15:01:52-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:01:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:01:58-0400 [INFO] [Function: logout] User logged out.
+2023-04-20T15:01:58-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:01:58] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2023-04-20T15:01:58-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:01:58] "GET / HTTP/1.1" 200 -
+2023-04-20T15:01:58-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:01:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:01:58-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:01:58] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:02:05-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:02:05] "GET /auth/login HTTP/1.1" 200 -
+2023-04-20T15:02:05-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:02:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:02:05-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:02:05] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:02:20-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:02:20] "GET /auth/password_recovery HTTP/1.1" 200 -
+2023-04-20T15:02:20-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:02:20] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:02:20-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:02:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:02:50-0400 [INFO] [Function: password_recovery] User 1 password updated.
+2023-04-20T15:02:50-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:02:50] "[32mPOST /auth/password_recovery HTTP/1.1[0m" 302 -
+2023-04-20T15:02:50-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:02:50] "GET /auth/login HTTP/1.1" 200 -
+2023-04-20T15:02:51-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:02:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:02:51-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:02:51] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:03:18-0400 [INFO] [Function: login] User 1 logged in.
+2023-04-20T15:03:18-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:03:18] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-04-20T15:03:18-0400 [INFO] [Function: home] Accessing the home page
+2023-04-20T15:03:18-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-20T15:03:18-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:03:18] "GET /home HTTP/1.1" 200 -
+2023-04-20T15:03:18-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:03:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:06:20-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:06:20] "GET /transaction HTTP/1.1" 200 -
+2023-04-20T15:06:20-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:06:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:06:41-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:06:41] "GET /get_stock_price?symbol=MSFT&date=2021-01-02 HTTP/1.1" 200 -
+2023-04-20T15:06:41-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:06:41] "GET /get_stock_price?symbol=MSFT&date=2021-01-20 HTTP/1.1" 200 -
+2023-04-20T15:06:48-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:06:48] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:06:48-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:06:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:07:07-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:07:07] "GET /get_stock_price?symbol=MSFT&date=2021-05-02 HTTP/1.1" 200 -
+2023-04-20T15:07:07-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:07:07] "GET /get_stock_price?symbol=MSFT&date=2021-05-20 HTTP/1.1" 200 -
+2023-04-20T15:07:11-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:07:11] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:07:11-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:07:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:07:27-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:07:27] "GET /get_stock_price?symbol=AAPL&date=2022-01-05 HTTP/1.1" 200 -
+2023-04-20T15:07:32-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:07:32] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:07:32-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:07:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:07:54-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:07:54] "GET /get_stock_price?symbol=AAPL&date=2022-07-03 HTTP/1.1" 200 -
+2023-04-20T15:08:00-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:08:00] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:08:00-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:08:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:08:16-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:08:16] "GET /get_stock_price?symbol=AAPL&date=2023-04-01 HTTP/1.1" 200 -
+2023-04-20T15:08:16-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:08:16] "GET /get_stock_price?symbol=AAPL&date=2023-04-12 HTTP/1.1" 200 -
+2023-04-20T15:08:21-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:08:21] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:08:21-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:08:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:08:29-0400 [INFO] [Function: home] Accessing the home page
+2023-04-20T15:08:29-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-20T15:08:30-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-20T15:08:30-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:08:30] "GET /home HTTP/1.1" 200 -
+2023-04-20T15:08:30-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:08:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:08:41-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:08:41] "GET /charting HTTP/1.1" 200 -
+2023-04-20T15:08:41-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:08:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:09:02-0400 [INFO] [Function: charting] Generating a chart
+2023-04-20T15:09:02-0400 [INFO] [Function: charting] Generated a adjusted_closing_price chart for MSFT from 2022-07-23 to 2023-03-14
+2023-04-20T15:09:02-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:02] "POST /charting HTTP/1.1" 200 -
+2023-04-20T15:09:02-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:09:09-0400 [INFO] [Function: charting] Generating a chart
+2023-04-20T15:09:09-0400 [INFO] [Function: charting] Generated a stock_vs_index_time_series_return chart for MSFT from 2022-07-23 to 2023-03-14
+2023-04-20T15:09:09-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:09] "POST /charting HTTP/1.1" 200 -
+2023-04-20T15:09:09-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:09:18-0400 [INFO] [Function: charting] Generating a chart
+2023-04-20T15:09:18-0400 [INFO] [Function: charting] Generated a stock_return_vs_index_return chart for MSFT from 2022-07-23 to 2023-03-14
+2023-04-20T15:09:18-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:18] "POST /charting HTTP/1.1" 200 -
+2023-04-20T15:09:18-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:09:24-0400 [INFO] [Function: charting] Generating a chart
+2023-04-20T15:09:24-0400 [INFO] [Function: charting] Generated a today_vs_yesterday_returns chart for MSFT from 2022-07-23 to 2023-03-14
+2023-04-20T15:09:24-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:24] "POST /charting HTTP/1.1" 200 -
+2023-04-20T15:09:24-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:09:28-0400 [INFO] [Function: charting] Generating a chart
+2023-04-20T15:09:28-0400 [INFO] [Function: charting] Generated a log_return chart for MSFT from 2022-07-23 to 2023-03-14
+2023-04-20T15:09:28-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:28] "POST /charting HTTP/1.1" 200 -
+2023-04-20T15:09:28-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:09:38-0400 [INFO] [Function: home] Accessing the home page
+2023-04-20T15:09:38-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-20T15:09:38-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-20T15:09:38-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:38] "GET /home HTTP/1.1" 200 -
+2023-04-20T15:09:38-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:09:41-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:41] "GET /transaction HTTP/1.1" 200 -
+2023-04-20T15:09:41-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:09:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:17:08-0400 [INFO] [Function: logout] User logged out.
+2023-04-20T15:17:08-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:17:08] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2023-04-20T15:17:08-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:17:08] "GET / HTTP/1.1" 200 -
+2023-04-20T15:17:08-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:17:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:17:08-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:17:08] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:18:11-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:18:11] "GET / HTTP/1.1" 200 -
+2023-04-20T15:18:11-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:18:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:18:11-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:18:11] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:18:28-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:18:28] "GET /auth/register HTTP/1.1" 200 -
+2023-04-20T15:18:28-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:18:28] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:18:28-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:18:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:18:53-0400 [WARNING] [Function: register] User 1 is already registered.
+2023-04-20T15:18:53-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:18:53] "POST /auth/register HTTP/1.1" 200 -
+2023-04-20T15:18:53-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:18:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:18:54-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:18:54] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:19:06-0400 [INFO] [Function: register] User 2 registered successfully.
+2023-04-20T15:19:06-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:06] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2023-04-20T15:19:06-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:06] "GET /auth/login HTTP/1.1" 200 -
+2023-04-20T15:19:06-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:19:06-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:06] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:19:23-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:23] "GET /auth/password_recovery HTTP/1.1" 200 -
+2023-04-20T15:19:23-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:23] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:19:23-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:19:37-0400 [INFO] [Function: login] User 2 logged in.
+2023-04-20T15:19:37-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:37] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-04-20T15:19:37-0400 [INFO] [Function: home] Accessing the home page
+2023-04-20T15:19:37-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-20T15:19:37-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:37] "GET /home HTTP/1.1" 200 -
+2023-04-20T15:19:37-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:19:46-0400 [INFO] [Function: logout] User logged out.
+2023-04-20T15:19:46-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:46] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2023-04-20T15:19:46-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:46] "GET / HTTP/1.1" 200 -
+2023-04-20T15:19:47-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:19:47-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:47] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:19:49-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:49] "GET /auth/login HTTP/1.1" 200 -
+2023-04-20T15:19:49-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:19:49-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:49] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:19:57-0400 [INFO] [Function: login] Admin admin logged in.
+2023-04-20T15:19:57-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:57] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-04-20T15:19:57-0400 [INFO] [Function: symbol] Accessing admin holdings
+2023-04-20T15:19:57-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:57] "GET /symbol/admin_holdings HTTP/1.1" 200 -
+2023-04-20T15:19:57-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:19:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:20:49-0400 [INFO] [Function: logout] User logged out.
+2023-04-20T15:20:49-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:20:49] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2023-04-20T15:20:49-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:20:49] "GET / HTTP/1.1" 200 -
+2023-04-20T15:20:49-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:20:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:20:49-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:20:49] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:20:51-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:20:51] "GET /auth/login HTTP/1.1" 200 -
+2023-04-20T15:20:52-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:20:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:20:52-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:20:52] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:21:03-0400 [INFO] [Function: login] User 1 logged in.
+2023-04-20T15:21:03-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:03] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-04-20T15:21:03-0400 [INFO] [Function: home] Accessing the home page
+2023-04-20T15:21:03-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-20T15:21:03-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-20T15:21:03-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:03] "GET /home HTTP/1.1" 200 -
+2023-04-20T15:21:03-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:21:15-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:15] "GET /transaction HTTP/1.1" 200 -
+2023-04-20T15:21:15-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:21:25-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:25] "GET /get_stock_price?symbol=MSFT&date=2023-04-11 HTTP/1.1" 200 -
+2023-04-20T15:21:30-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:30] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:21:30-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:21:33-0400 [INFO] [Function: home] Accessing the home page
+2023-04-20T15:21:33-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-20T15:21:33-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:33] "GET /home HTTP/1.1" 200 -
+2023-04-20T15:21:33-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:21:39-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:39] "GET /transaction HTTP/1.1" 200 -
+2023-04-20T15:21:39-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:21:48-0400 [INFO] [Function: home] Accessing the home page
+2023-04-20T15:21:48-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-20T15:21:48-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:48] "GET /home HTTP/1.1" 200 -
+2023-04-20T15:21:48-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:21:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:23:02-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:23:02] "GET /transaction HTTP/1.1" 200 -
+2023-04-20T15:23:02-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:23:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:23:14-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:23:14] "GET /get_stock_price?symbol=MSFT&date=2023-04-05 HTTP/1.1" 200 -
+2023-04-20T15:23:19-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:23:19] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:23:19-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:23:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:23:33-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:23:33] "GET /get_stock_price?symbol=MSFT&date=2023-04-06 HTTP/1.1" 200 -
+2023-04-20T15:23:38-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:23:38] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:23:38-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:23:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:23:54-0400 [INFO] [Function: home] Accessing the home page
+2023-04-20T15:23:54-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-20T15:23:54-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-20T15:23:54-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:23:54] "GET /home HTTP/1.1" 200 -
+2023-04-20T15:23:54-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:23:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:24:01-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:24:01] "GET /charting HTTP/1.1" 200 -
+2023-04-20T15:24:01-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:24:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:24:20-0400 [INFO] [Function: charting] Generating a chart
+2023-04-20T15:24:20-0400 [INFO] [Function: charting] Generated a adjusted_closing_price chart for MSFT from 2022-04-17 to 2023-04-13
+2023-04-20T15:24:20-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:24:20] "POST /charting HTTP/1.1" 200 -
+2023-04-20T15:24:20-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:24:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:24:27-0400 [INFO] [Function: charting] Generating a chart
+2023-04-20T15:24:27-0400 [INFO] [Function: charting] Generated a stock_return_vs_index_return chart for MSFT from 2022-04-17 to 2023-04-13
+2023-04-20T15:24:27-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:24:27] "POST /charting HTTP/1.1" 200 -
+2023-04-20T15:24:27-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:24:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:24:30-0400 [INFO] [Function: charting] Generating a chart
+2023-04-20T15:24:31-0400 [INFO] [Function: charting] Generated a stock_vs_index_time_series_return chart for MSFT from 2022-04-17 to 2023-04-13
+2023-04-20T15:24:31-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:24:31] "POST /charting HTTP/1.1" 200 -
+2023-04-20T15:24:31-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:24:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:24:34-0400 [INFO] [Function: charting] Generating a chart
+2023-04-20T15:24:34-0400 [INFO] [Function: charting] Generated a today_vs_yesterday_returns chart for MSFT from 2022-04-17 to 2023-04-13
+2023-04-20T15:24:34-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:24:34] "POST /charting HTTP/1.1" 200 -
+2023-04-20T15:24:34-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:24:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:24:37-0400 [INFO] [Function: home] Accessing the home page
+2023-04-20T15:24:37-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-20T15:24:37-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-20T15:24:37-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:24:37] "GET /home HTTP/1.1" 200 -
+2023-04-20T15:24:37-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:24:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:25:39-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:25:39] "GET /transaction HTTP/1.1" 200 -
+2023-04-20T15:25:39-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:25:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:25:45-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:25:45] "GET /get_stock_price?symbol=AAPL&date=2023-04-05 HTTP/1.1" 200 -
+2023-04-20T15:25:51-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:25:51] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:25:51-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:25:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:26:00-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:26:00] "GET /get_stock_price?symbol=GOOG&date=2023-03-06 HTTP/1.1" 200 -
+2023-04-20T15:26:04-0400 [INFO] [Function: alvant] History price retrieved for symbol: GOOG
+2023-04-20T15:26:05-0400 [INFO] [Function: alvant] History price retrieved for symbol: GOOG
+2023-04-20T15:26:15-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: GOOG
+2023-04-20T15:26:16-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: GOOG
+2023-04-20T15:26:23-0400 [INFO] [Function: alvant] History price retrieved for symbol: GOOG
+2023-04-20T15:26:26-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:26:26] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:26:27-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:26:27] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:26:34-0400 [INFO] [Function: alvant] Stock overview retrieved for symbol: GOOG
+2023-04-20T15:26:45-0400 [ERROR] Exception on /transaction [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/AllenLiu/Desktop/All/Duke/FIT512/gitlab/BigBucks/fintech512-bigbucks/big-bucks/bigbucks/auth.py", line 39, in wrapped_view
+    return view(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/Users/AllenLiu/Desktop/All/Duke/FIT512/gitlab/BigBucks/fintech512-bigbucks/big-bucks/bigbucks/transactions.py", line 107, in transaction
+    insert_asset(db,stock_symbol)
+  File "/Users/AllenLiu/Desktop/All/Duke/FIT512/gitlab/BigBucks/fintech512-bigbucks/big-bucks/bigbucks/db.py", line 32, in insert_asset
+    db.execute('INSERT OR REPLACE INTO assets_overview(symbol,name,description)VALUES(?,?,?)',(overview['Symbol'],overview['Name'],overview['Description']))
+                                                                                               ~~~~~~~~^^^^^^^^^^
+KeyError: 'Symbol'
+2023-04-20T15:26:45-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:26:45] "[35m[1mPOST /transaction HTTP/1.1[0m" 500 -
+2023-04-20T15:27:58-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:27:58] "GET /get_stock_price?symbol=GOOGL&date=2023-03-06 HTTP/1.1" 200 -
+2023-04-20T15:28:05-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:28:05] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:28:05-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:28:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:28:21-0400 [INFO] [Function: home] Accessing the home page
+2023-04-20T15:28:21-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-20T15:28:22-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-20T15:28:22-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:28:22] "GET /home HTTP/1.1" 200 -
+2023-04-20T15:28:22-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:28:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:28:46-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:28:46] "GET /transaction HTTP/1.1" 200 -
+2023-04-20T15:28:46-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:28:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:29:05-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:29:05] "GET /get_stock_price?symbol=SPY&date=2023-04-02 HTTP/1.1" 200 -
+2023-04-20T15:29:08-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:29:08] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:29:08-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:29:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:29:18-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:29:18] "GET /get_stock_price?symbol=SPY&date=2023-04-05 HTTP/1.1" 200 -
+2023-04-20T15:29:21-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:29:21] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:29:21-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:29:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:29:40-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:29:40] "GET /get_stock_price?symbol=NFLX&date=2023-04-07 HTTP/1.1" 200 -
+2023-04-20T15:29:43-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:29:43] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:29:43-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:29:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:29:53-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:29:53] "GET /get_stock_price?symbol=NFLX&date=2023-04-12 HTTP/1.1" 200 -
+2023-04-20T15:29:56-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:29:56] "POST /transaction HTTP/1.1" 200 -
+2023-04-20T15:29:56-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:29:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:30:01-0400 [INFO] [Function: home] Accessing the home page
+2023-04-20T15:30:01-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-20T15:30:04-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-20T15:30:04-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:30:04] "GET /home HTTP/1.1" 200 -
+2023-04-20T15:30:04-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:30:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:31:54-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:31:54] "GET /portfolio HTTP/1.1" 200 -
+2023-04-20T15:31:54-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:31:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:32:55-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:32:55] "POST /portfolio HTTP/1.1" 200 -
+2023-04-20T15:32:55-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:32:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:33:51-0400 [INFO] [Function: logout] User logged out.
+2023-04-20T15:33:51-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:33:51] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2023-04-20T15:33:51-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:33:51] "GET / HTTP/1.1" 200 -
+2023-04-20T15:33:51-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:33:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:33:51-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:33:51] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:33:53-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:33:53] "GET /auth/login HTTP/1.1" 200 -
+2023-04-20T15:33:53-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:33:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:33:53-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:33:53] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-20T15:34:01-0400 [INFO] [Function: login] Admin admin logged in.
+2023-04-20T15:34:01-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:34:01] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-04-20T15:34:01-0400 [INFO] [Function: symbol] Accessing admin holdings
+2023-04-20T15:34:01-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:34:01] "GET /symbol/admin_holdings HTTP/1.1" 200 -
+2023-04-20T15:34:01-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:34:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:34:46-0400 [INFO] [Function: symbol] Accessing admin holdings
+2023-04-20T15:34:46-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:34:46] "GET /symbol/admin_holdings HTTP/1.1" 200 -
+2023-04-20T15:34:46-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:34:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:35:00-0400 [INFO] [Function: symbol] Accessing admin orders
+2023-04-20T15:35:00-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:35:00] "GET /symbol/admin_orders HTTP/1.1" 200 -
+2023-04-20T15:35:00-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:35:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:35:09-0400 [INFO] [Function: symbol] Accessing admin orders
+2023-04-20T15:35:09-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:35:09] "POST /symbol/admin_orders HTTP/1.1" 200 -
+2023-04-20T15:35:09-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:35:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:35:14-0400 [INFO] [Function: symbol] Accessing admin profile form
+2023-04-20T15:35:14-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:35:14] "GET /symbol/overall_profile HTTP/1.1" 200 -
+2023-04-20T15:35:14-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:35:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:35:24-0400 [INFO] [Function: symbol] Accessing admin profile form
+2023-04-20T15:35:26-0400 [INFO] [Function: symbol] Accessing admin profile form
+2023-04-20T15:35:27-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:35:27] "POST /symbol/overall_profile HTTP/1.1" 200 -
+2023-04-20T15:35:30-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:35:30] "POST /symbol/overall_profile HTTP/1.1" 200 -
+2023-04-20T15:35:30-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:35:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:36:36-0400 [INFO] [Function: symbol] Accessing admin holdings
+2023-04-20T15:36:36-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:36:36] "GET /symbol/admin_holdings HTTP/1.1" 200 -
+2023-04-20T15:36:36-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:36:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:37:06-0400 [INFO] [Function: symbol] Accessing admin orders
+2023-04-20T15:37:06-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:37:06] "GET /symbol/admin_orders HTTP/1.1" 200 -
+2023-04-20T15:37:06-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:37:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:37:13-0400 [INFO] [Function: symbol] Accessing admin orders
+2023-04-20T15:37:13-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:37:13] "POST /symbol/admin_orders HTTP/1.1" 200 -
+2023-04-20T15:37:13-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:37:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:37:16-0400 [INFO] [Function: symbol] Accessing admin profile form
+2023-04-20T15:37:16-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:37:16] "GET /symbol/overall_profile HTTP/1.1" 200 -
+2023-04-20T15:37:16-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:37:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:37:22-0400 [INFO] [Function: symbol] Accessing admin profile form
+2023-04-20T15:37:25-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:37:25] "POST /symbol/overall_profile HTTP/1.1" 200 -
+2023-04-20T15:37:25-0400 [INFO] 127.0.0.1 - - [20/Apr/2023 15:37:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-20T15:38:18-0400 [INFO] Scheduler has been shut down
+2023-04-21T17:23:09-0400 [INFO] Added job "Update database" to job store "default"
+2023-04-21T17:23:09-0400 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-04-21T17:23:09-0400 [INFO] [33mPress CTRL+C to quit[0m
+2023-04-21T17:23:11-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:11] "GET / HTTP/1.1" 200 -
+2023-04-21T17:23:11-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:23:11-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:11] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-21T17:23:32-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:32] "GET /auth/login HTTP/1.1" 200 -
+2023-04-21T17:23:32-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:32] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-21T17:23:32-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:23:39-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:39] "GET /auth/password_recovery HTTP/1.1" 200 -
+2023-04-21T17:23:39-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:23:39-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:39] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-21T17:23:47-0400 [INFO] [Function: symbol] Accessing admin profile form
+2023-04-21T17:23:47-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:47] "GET /symbol/overall_profile HTTP/1.1" 200 -
+2023-04-21T17:23:47-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:23:49-0400 [INFO] [Function: symbol] Accessing admin holdings
+2023-04-21T17:23:49-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:49] "GET /symbol/admin_holdings HTTP/1.1" 200 -
+2023-04-21T17:23:49-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:23:49-0400 [INFO] [Function: logout] User logged out.
+2023-04-21T17:23:49-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:49] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2023-04-21T17:23:49-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:49] "GET / HTTP/1.1" 200 -
+2023-04-21T17:23:49-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:23:49-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:49] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-21T17:23:51-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:51] "GET /auth/login HTTP/1.1" 200 -
+2023-04-21T17:23:51-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:23:51-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:51] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-21T17:23:54-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:54] "POST /auth/login HTTP/1.1" 200 -
+2023-04-21T17:23:54-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:23:54-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:54] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-21T17:23:56-0400 [INFO] [Function: login] User 1 logged in.
+2023-04-21T17:23:56-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:56] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-04-21T17:23:56-0400 [INFO] [Function: home] Accessing the home page
+2023-04-21T17:23:57-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-21T17:23:58-0400 [INFO] [Function: login] User 1 logged in.
+2023-04-21T17:23:58-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:58] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-04-21T17:23:58-0400 [INFO] [Function: home] Accessing the home page
+2023-04-21T17:23:58-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-21T17:23:59-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-21T17:23:59-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:23:59] "GET /home HTTP/1.1" 200 -
+2023-04-21T17:24:01-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-21T17:24:01-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:01] "GET /home HTTP/1.1" 200 -
+2023-04-21T17:24:01-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:24:16-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:16] "GET /charting HTTP/1.1" 200 -
+2023-04-21T17:24:16-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:24:27-0400 [INFO] [Function: charting] Generating a chart
+2023-04-21T17:24:27-0400 [INFO] [Function: charting] Generated a simple_return chart for MSFT from 2022-08-31 to 2023-02-13
+2023-04-21T17:24:27-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:27] "POST /charting HTTP/1.1" 200 -
+2023-04-21T17:24:27-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:24:31-0400 [INFO] [Function: charting] Generating a chart
+2023-04-21T17:24:31-0400 [INFO] [Function: charting] Generated a daily_price_movement chart for MSFT from 2022-08-31 to 2023-02-13
+2023-04-21T17:24:31-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:31] "POST /charting HTTP/1.1" 200 -
+2023-04-21T17:24:31-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:24:35-0400 [INFO] [Function: charting] Generating a chart
+2023-04-21T17:24:35-0400 [INFO] [Function: charting] Generated a stock_return_vs_index_return chart for MSFT from 2022-08-31 to 2023-02-13
+2023-04-21T17:24:35-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:35] "POST /charting HTTP/1.1" 200 -
+2023-04-21T17:24:35-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:24:46-0400 [INFO] [Function: charting] Generating a chart
+2023-04-21T17:24:46-0400 [INFO] [Function: charting] Generated a stock_vs_index_adjusted_close_price chart for MSFT from 2022-08-31 to 2023-02-13
+2023-04-21T17:24:46-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:46] "POST /charting HTTP/1.1" 200 -
+2023-04-21T17:24:46-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:24:50-0400 [INFO] [Function: charting] Generating a chart
+2023-04-21T17:24:50-0400 [INFO] [Function: charting] Generated a simple_return chart for MSFT from 2022-08-31 to 2023-02-13
+2023-04-21T17:24:50-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:50] "POST /charting HTTP/1.1" 200 -
+2023-04-21T17:24:50-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:24:52-0400 [INFO] [Function: charting] Generating a chart
+2023-04-21T17:24:52-0400 [INFO] [Function: charting] Generated a log_return chart for MSFT from 2022-08-31 to 2023-02-13
+2023-04-21T17:24:52-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:52] "POST /charting HTTP/1.1" 200 -
+2023-04-21T17:24:52-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:24:55-0400 [INFO] [Function: charting] Generating a chart
+2023-04-21T17:24:55-0400 [INFO] [Function: charting] Generated a daily_return chart for MSFT from 2022-08-31 to 2023-02-13
+2023-04-21T17:24:55-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:55] "POST /charting HTTP/1.1" 200 -
+2023-04-21T17:24:55-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:24:58-0400 [INFO] [Function: charting] Generating a chart
+2023-04-21T17:24:58-0400 [INFO] [Function: charting] Generated a area_graph chart for MSFT from 2022-08-31 to 2023-02-13
+2023-04-21T17:24:58-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:58] "POST /charting HTTP/1.1" 200 -
+2023-04-21T17:24:58-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:24:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:25:01-0400 [INFO] [Function: charting] Generating a chart
+2023-04-21T17:25:01-0400 [INFO] [Function: charting] Generated a adjusted_closing_price chart for MSFT from 2022-08-31 to 2023-02-13
+2023-04-21T17:25:01-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:25:01] "POST /charting HTTP/1.1" 200 -
+2023-04-21T17:25:01-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:25:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:25:10-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:25:10] "GET /portfolio HTTP/1.1" 200 -
+2023-04-21T17:25:11-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:25:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:26:01-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:26:01] "POST /portfolio HTTP/1.1" 200 -
+2023-04-21T17:26:01-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:26:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:26:26-0400 [INFO] [Function: home] Accessing the home page
+2023-04-21T17:26:26-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-21T17:26:28-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-21T17:26:28-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:26:28] "GET /home HTTP/1.1" 200 -
+2023-04-21T17:26:28-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:26:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:26:36-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:26:36] "GET /transaction HTTP/1.1" 200 -
+2023-04-21T17:26:36-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:26:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:36:22-0400 [INFO] [Function: logout] User logged out.
+2023-04-21T17:36:22-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:36:22] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2023-04-21T17:36:22-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:36:22] "GET / HTTP/1.1" 200 -
+2023-04-21T17:36:22-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:36:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:36:22-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:36:22] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-21T17:36:23-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:36:23] "GET /auth/login HTTP/1.1" 200 -
+2023-04-21T17:36:23-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:36:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T17:36:23-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 17:36:23] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-04-21T18:01:39-0400 [INFO] [Function: login] User 1 logged in.
+2023-04-21T18:01:39-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 18:01:39] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-04-21T18:01:39-0400 [INFO] [Function: home] Accessing the home page
+2023-04-21T18:01:39-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-04-21T18:01:42-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-04-21T18:01:42-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 18:01:42] "GET /home HTTP/1.1" 200 -
+2023-04-21T18:01:42-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 18:01:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T18:01:45-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 18:01:45] "GET /portfolio HTTP/1.1" 200 -
+2023-04-21T18:01:45-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 18:01:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-21T18:02:29-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 18:02:29] "POST /portfolio HTTP/1.1" 200 -
+2023-04-21T18:02:29-0400 [INFO] 127.0.0.1 - - [21/Apr/2023 18:02:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-04-22T15:08:55-0400 [INFO] Scheduler has been shut down
+2023-05-05T09:10:06-0400 [INFO] Added job "Update database" to job store "default"
+2023-05-05T09:10:06-0400 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-05-05T09:10:06-0400 [INFO] [33mPress CTRL+C to quit[0m
+2023-05-05T09:10:55-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:10:55] "GET / HTTP/1.1" 200 -
+2023-05-05T09:10:55-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:10:55] "GET /static/style.css HTTP/1.1" 200 -
+2023-05-05T09:10:55-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:10:55] "GET /static/logo/dark.png HTTP/1.1" 200 -
+2023-05-05T09:10:55-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:10:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-05-05T09:11:00-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:11:00] "GET /auth/login HTTP/1.1" 200 -
+2023-05-05T09:11:00-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:11:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:11:00-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:11:00] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T09:11:03-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:11:03] "POST /auth/login HTTP/1.1" 200 -
+2023-05-05T09:11:03-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:11:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:11:03-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:11:03] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T09:47:13-0400 [INFO] Added job "Update database" to job store "default"
+2023-05-05T09:47:13-0400 [INFO] Scheduler has been shut down
+2023-05-05T09:49:40-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:49:40] "POST /auth/login HTTP/1.1" 200 -
+2023-05-05T09:49:40-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:49:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:49:40-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:49:40] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T09:49:42-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:49:42] "GET /auth/register HTTP/1.1" 200 -
+2023-05-05T09:49:42-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:49:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:49:42-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:49:42] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T09:49:50-0400 [INFO] [Function: register] User jw registered successfully.
+2023-05-05T09:49:50-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:49:50] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2023-05-05T09:49:50-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:49:50] "GET /auth/login HTTP/1.1" 200 -
+2023-05-05T09:49:50-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:49:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:49:50-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:49:50] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T09:49:55-0400 [INFO] [Function: login] User jw logged in.
+2023-05-05T09:49:55-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:49:55] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-05-05T09:49:55-0400 [INFO] [Function: home] Accessing the home page
+2023-05-05T09:49:55-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-05-05T09:49:55-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:49:55] "GET /home HTTP/1.1" 200 -
+2023-05-05T09:49:55-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:49:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:50:00-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:00] "GET /transaction HTTP/1.1" 200 -
+2023-05-05T09:50:00-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:50:09-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:09] "GET /get_stock_price?symbol=MSFT&date=2023-05-04 HTTP/1.1" 200 -
+2023-05-05T09:50:12-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:12] "POST /transaction HTTP/1.1" 200 -
+2023-05-05T09:50:12-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:50:24-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:24] "GET /get_stock_price?symbol=MSFT&date=2022-07-05 HTTP/1.1" 200 -
+2023-05-05T09:50:25-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:25] "GET /get_stock_price?symbol=MSFT&date=2022-07-07 HTTP/1.1" 200 -
+2023-05-05T09:50:27-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:27] "POST /transaction HTTP/1.1" 200 -
+2023-05-05T09:50:27-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:50:30-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:30] "GET /portfolio HTTP/1.1" 200 -
+2023-05-05T09:50:30-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:50:31-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:31] "GET /charting HTTP/1.1" 200 -
+2023-05-05T09:50:31-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:50:32-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:32] "GET /transaction HTTP/1.1" 200 -
+2023-05-05T09:50:32-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:50:34-0400 [INFO] [Function: home] Accessing the home page
+2023-05-05T09:50:34-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-05-05T09:50:34-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-05-05T09:50:34-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:34] "GET /home HTTP/1.1" 200 -
+2023-05-05T09:50:34-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:50:37-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:37] "GET /transaction HTTP/1.1" 200 -
+2023-05-05T09:50:37-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:50:43-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:43] "GET /get_stock_price?symbol=AAPL&date=2023-05-18 HTTP/1.1" 200 -
+2023-05-05T09:50:46-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:46] "POST /transaction HTTP/1.1" 200 -
+2023-05-05T09:50:46-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:50:52-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:52] "GET /get_stock_price?symbol=TSLA&date=2023-05-20 HTTP/1.1" 200 -
+2023-05-05T09:50:59-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:50:59] "GET /get_stock_price?symbol=TSLA&date=2023-05-10 HTTP/1.1" 200 -
+2023-05-05T09:51:00-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:00] "POST /transaction HTTP/1.1" 200 -
+2023-05-05T09:51:00-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:51:05-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:05] "GET /get_stock_price?symbol=AAPL&date=2023-05-11 HTTP/1.1" 200 -
+2023-05-05T09:51:10-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:10] "POST /transaction HTTP/1.1" 200 -
+2023-05-05T09:51:10-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:51:24-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:24] "GET /get_stock_price?symbol=AAPL&date=2023-03-05 HTTP/1.1" 200 -
+2023-05-05T09:51:25-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:25] "GET /get_stock_price?symbol=AAPL&date=2023-03-16 HTTP/1.1" 200 -
+2023-05-05T09:51:27-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:27] "POST /transaction HTTP/1.1" 200 -
+2023-05-05T09:51:27-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:51:30-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:30] "GET /transaction HTTP/1.1" 200 -
+2023-05-05T09:51:30-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:51:32-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:32] "GET /transaction HTTP/1.1" 200 -
+2023-05-05T09:51:32-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:51:50-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:50] "GET /transaction HTTP/1.1" 200 -
+2023-05-05T09:51:50-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:51:50-0400 [INFO] [Function: home] Accessing the home page
+2023-05-05T09:51:50-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-05-05T09:51:50-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-05-05T09:51:50-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:50] "GET /home HTTP/1.1" 200 -
+2023-05-05T09:51:50-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:51:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:56:18-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:56:18] "GET /transaction HTTP/1.1" 200 -
+2023-05-05T09:56:18-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:56:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:56:43-0400 [INFO] [Function: alvant] Market price retrieved for symbol: MSFT
+2023-05-05T09:56:44-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:56:44] "GET /get_stock_price?symbol=MSFT&date=2023-05-05 HTTP/1.1" 200 -
+2023-05-05T09:56:46-0400 [INFO] [Function: alvant] Market price retrieved for symbol: MSFT
+2023-05-05T09:56:47-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:56:47] "POST /transaction HTTP/1.1" 200 -
+2023-05-05T09:56:47-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:56:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T09:58:25-0400 [INFO] [Function: alvant] Market price retrieved for symbol: AAPL
+2023-05-05T09:58:26-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:58:26] "GET /get_stock_price?symbol=AAPL&date=2023-05-05 HTTP/1.1" 200 -
+2023-05-05T09:58:28-0400 [INFO] [Function: alvant] Market price retrieved for symbol: AAPL
+2023-05-05T09:58:29-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:58:29] "POST /transaction HTTP/1.1" 200 -
+2023-05-05T09:58:29-0400 [INFO] 127.0.0.1 - - [05/May/2023 09:58:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T10:20:10-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:10] "GET /charting HTTP/1.1" 200 -
+2023-05-05T10:20:10-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T10:20:11-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:11] "GET /portfolio HTTP/1.1" 200 -
+2023-05-05T10:20:11-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T10:20:12-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:12] "GET /transaction HTTP/1.1" 200 -
+2023-05-05T10:20:12-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T10:20:13-0400 [INFO] [Function: home] Accessing the home page
+2023-05-05T10:20:13-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-05-05T10:20:13-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-05-05T10:20:13-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:13] "GET /home HTTP/1.1" 200 -
+2023-05-05T10:20:13-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T10:20:17-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:17] "GET /charting HTTP/1.1" 200 -
+2023-05-05T10:20:17-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T10:20:17-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:17] "GET /portfolio HTTP/1.1" 200 -
+2023-05-05T10:20:17-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T10:20:18-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:18] "GET /transaction HTTP/1.1" 200 -
+2023-05-05T10:20:18-0400 [INFO] 127.0.0.1 - - [05/May/2023 10:20:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:00:58-0400 [INFO] [Function: logout] User logged out.
+2023-05-05T11:00:58-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:00:58] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2023-05-05T11:00:58-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:00:58] "GET / HTTP/1.1" 200 -
+2023-05-05T11:00:58-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:00:58] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T11:00:58-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:00:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:13:53-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:13:53] "GET / HTTP/1.1" 200 -
+2023-05-05T11:13:53-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:13:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:13:53-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:13:53] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T11:26:22-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:26:22] "GET / HTTP/1.1" 200 -
+2023-05-05T11:26:22-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:26:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:26:22-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:26:22] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T11:26:39-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:26:39] "GET /auth/register HTTP/1.1" 200 -
+2023-05-05T11:26:39-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:26:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:26:39-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:26:39] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T11:27:16-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:27:16] "GET /auth/register HTTP/1.1" 200 -
+2023-05-05T11:27:16-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:27:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:27:16-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:27:16] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T11:27:20-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:27:20] "GET /auth/login HTTP/1.1" 200 -
+2023-05-05T11:27:20-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:27:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:27:20-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:27:20] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T11:27:36-0400 [INFO] [Function: login] User jw logged in.
+2023-05-05T11:27:36-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:27:36] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-05-05T11:27:36-0400 [INFO] [Function: home] Accessing the home page
+2023-05-05T11:27:36-0400 [INFO] [Function: home] Pie chart for portfolio holdings generated
+2023-05-05T11:27:36-0400 [INFO] [Function: home] Holding analysis chart generated
+2023-05-05T11:27:36-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:27:36] "GET /home HTTP/1.1" 200 -
+2023-05-05T11:27:36-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:27:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:27:54-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:27:54] "GET /transaction HTTP/1.1" 200 -
+2023-05-05T11:27:54-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:27:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:28:10-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:28:10] "GET /get_stock_price?symbol=MSFT&date=0002-05-05 HTTP/1.1" 200 -
+2023-05-05T11:28:10-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:28:10] "GET /get_stock_price?symbol=MSFT&date=0020-05-05 HTTP/1.1" 200 -
+2023-05-05T11:28:11-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:28:11] "GET /get_stock_price?symbol=MSFT&date=0202-05-05 HTTP/1.1" 200 -
+2023-05-05T11:28:11-0400 [INFO] [Function: alvant] Market price retrieved for symbol: MSFT
+2023-05-05T11:28:12-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:28:12] "GET /get_stock_price?symbol=MSFT&date=2023-05-05 HTTP/1.1" 200 -
+2023-05-05T11:28:19-0400 [INFO] [Function: alvant] Market price retrieved for symbol: MSFT
+2023-05-05T11:28:20-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:28:20] "POST /transaction HTTP/1.1" 200 -
+2023-05-05T11:28:20-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:28:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:28:29-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:28:29] "GET /charting HTTP/1.1" 200 -
+2023-05-05T11:28:29-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:28:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:28:54-0400 [INFO] [Function: charting] Generating a chart
+2023-05-05T11:28:54-0400 [INFO] [Function: charting] Generated a daily_return chart for MSFT from 2022-04-05 to 2023-04-17
+2023-05-05T11:28:54-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:28:54] "POST /charting HTTP/1.1" 200 -
+2023-05-05T11:28:54-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:28:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:29:11-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:29:11] "GET /portfolio HTTP/1.1" 200 -
+2023-05-05T11:29:11-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:29:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:29:58-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:29:58] "POST /portfolio HTTP/1.1" 200 -
+2023-05-05T11:29:58-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:29:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:30:49-0400 [INFO] [Function: logout] User logged out.
+2023-05-05T11:30:49-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:30:49] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2023-05-05T11:30:49-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:30:49] "GET / HTTP/1.1" 200 -
+2023-05-05T11:30:49-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:30:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:30:49-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:30:49] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T11:30:51-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:30:51] "GET /auth/login HTTP/1.1" 200 -
+2023-05-05T11:30:51-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:30:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:30:51-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:30:51] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T11:30:59-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:30:59] "POST /auth/login HTTP/1.1" 200 -
+2023-05-05T11:30:59-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:30:59] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T11:30:59-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:30:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:31:07-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:31:07] "POST /auth/login HTTP/1.1" 200 -
+2023-05-05T11:31:07-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:31:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:31:07-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:31:07] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T11:31:19-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:31:19] "POST /auth/login HTTP/1.1" 200 -
+2023-05-05T11:31:19-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:31:19] "[36mGET /static/logo/dark.png HTTP/1.1[0m" 304 -
+2023-05-05T11:31:19-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:31:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:31:45-0400 [INFO] [Function: login] Admin admin logged in.
+2023-05-05T11:31:45-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:31:45] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2023-05-05T11:31:45-0400 [INFO] [Function: symbol] Accessing admin holdings
+2023-05-05T11:31:45-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:31:45] "GET /symbol/admin_holdings HTTP/1.1" 200 -
+2023-05-05T11:31:45-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:31:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:31:51-0400 [INFO] [Function: symbol] Accessing admin orders
+2023-05-05T11:31:51-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:31:51] "GET /symbol/admin_orders HTTP/1.1" 200 -
+2023-05-05T11:31:51-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:31:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:31:54-0400 [INFO] [Function: symbol] Accessing admin holdings
+2023-05-05T11:31:54-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:31:54] "GET /symbol/admin_holdings HTTP/1.1" 200 -
+2023-05-05T11:31:54-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:31:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:32:29-0400 [INFO] [Function: symbol] Accessing admin profile form
+2023-05-05T11:32:29-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:32:29] "GET /symbol/overall_profile HTTP/1.1" 200 -
+2023-05-05T11:32:29-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:32:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:32:57-0400 [INFO] [Function: symbol] Accessing admin holdings
+2023-05-05T11:32:57-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:32:57] "GET /symbol/admin_holdings HTTP/1.1" 200 -
+2023-05-05T11:32:57-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:32:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-05T11:34:01-0400 [INFO] [Function: symbol] Accessing admin profile form
+2023-05-05T11:34:01-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:34:01] "GET /symbol/overall_profile HTTP/1.1" 200 -
+2023-05-05T11:34:01-0400 [INFO] 127.0.0.1 - - [05/May/2023 11:34:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-05-06T19:24:18-0400 [INFO] Scheduler has been shut down

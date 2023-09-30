@@ -1,0 +1,137 @@
+{% extends "home/home.html" %}
+
+{% block title %}
+Portfolio Page
+{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Portfolio Builder</title>
+   </head>
+   <body>
+     <br>
+      <h1>Portfolio Builder</h1>
+      <form method="post" action="/portfolio">
+	<div class="form-group">
+          <label for="num_assets">Number of Assets:</label>
+          <input type="number" class="form-control" id="num_assets" name="num_assets" min="1" max="10" required>
+	</div>
+	<br>
+        <label for="start_date">Start Date:</label>
+        <input type="date" class="form-control" id="start_date" name="start_date" required>
+        <label for="end_date">End Date:</label>
+        <input type="date" class="form-control" id="end_date" name="end_date" required>
+	<br>
+        <div class="form-control" id="asset_fields"></div>
+        <br>
+	<div class="button-container">
+          <input type="submit" value="Build!" style="margin: 0 auto;">
+	</div>
+      </form>
+      <script>
+         function addAssetFields() {
+            var num_assets = parseInt(document.getElementById("num_assets").value);
+            var asset_fields = document.getElementById("asset_fields");
+            asset_fields.innerHTML = "";
+            for (var i = 0; i < num_assets; i++) {
+               var asset_div = document.createElement("div");
+               var symbol_label = document.createElement("label");
+               symbol_label.htmlFor = "symbol_" + i;
+               symbol_label.innerHTML = "Symbol " + (i+1) + ": ";
+               var symbol_input = document.createElement("input");
+               symbol_input.type = "text";
+               symbol_input.id = "symbol_" + i;
+               symbol_input.name = "symbol_" + i;
+               symbol_input.required = true;
+               var weight_label = document.createElement("label");
+               weight_label.htmlFor = "weight_" + i;
+               weight_label.innerHTML = "Weight " + (i+1) + " (%): ";
+               var weight_input = document.createElement("input");
+               weight_input.type = "number";
+               weight_input.id = "weight_" + i;
+               weight_input.name = "weight_" + i;
+               weight_input.min = "0";
+               weight_input.max = "100";
+               weight_input.required = true;
+               var weight_unit = document.createElement("label");
+               weight_unit.innerHTML = "%";
+               asset_div.appendChild(symbol_label);
+               asset_div.appendChild(symbol_input);
+               asset_div.appendChild(weight_label);
+               asset_div.appendChild(weight_input);
+               asset_div.appendChild(weight_unit);
+               asset_fields.appendChild(asset_div);
+            }
+         }
+         document.getElementById("num_assets").addEventListener("change", addAssetFields);
+         document.getElementById("num_assets").addEventListener("keyup", addAssetFields);
+         document.getElementsByTagName("form")[0].addEventListener("submit", function(event) {
+            var weights = [];
+            for (var i = 0; i < parseInt(document.getElementById("num_assets").value); i++) {
+               weights.push(parseFloat(document.getElementById("weight_" + i).value));
+            }
+            var sum_weights = weights.reduce(function(a, b) { return a + b; }, 0);
+            if (sum_weights != 100) {
+               alert("The sum of weights must be 100%");
+               event.preventDefault();
+            }
+         });
+      </script>
+      <br>
+      <h1>Portfolio Result:</h1>
+      {% if error %}
+      <p style="color: red;">{{ error }}</p>
+      {% endif %}
+      {% if portfolio %}
+      <ul>
+         <h4>Current portfolio weights:</h4>
+         <ul>
+            <li style="display: inline-block">{{ assets }}</li>
+            {% for weight in portfolio.weights %}
+            <li style="display: inline-block">{{ '{:.2f}'.format(weight) }}</li>
+            {% endfor %}
+         </ul>
+         <div>
+            <chart>
+               {{ port_pie|safe }}
+            </chart>
+         </div>
+         <br>
+         <p>Portfolio return: {{ '{:.2f}'.format(portfolio.port_rtn) }}</p>
+         <p>Portfolio standard deviation: {{ '{:.2f}'.format(portfolio.port_sdv) }}</p>
+         <p>Portfolio Sharpe Ratio: {{ '{:.2f}'.format(portfolio.port_shp) }}</p>
+      </ul>
+      <br>
+      <ul>
+         <h4>Optimal portfolio weights:</h4>
+         <ul>
+            <li style="display: inline-block">{{ assets }}</li>
+            {% for weight in portfolio.opti_wgt %}
+            <li style="display: inline-block">{{ '{:.2f}'.format(weight) }}</li>
+            {% endfor %}
+         </ul>
+         <div>
+            <chart>
+               {{ opti_pie|safe }}
+            </chart>
+         </div>
+         <br>
+         <p>Optimal portfolio return: {{ '{:.2f}'.format(portfolio.opti_rtn) }}</p>
+         <p>Optimal portfolio standard deviation: {{ '{:.2f}'.format(portfolio.opti_sdv) }}</p>
+         <p>Optimal Portfolio Sharpe Ratio: {{ '{:.2f}'.format(portfolio.opti_shp) }}</p>
+      </ul>
+      <div>
+         <chart>
+         {{ chart|safe }}
+         </chart>
+      </div>
+      {% else %}
+      <div style="text-align: center;">
+	<p>Try building a portfolio!</p>
+      </div>
+      {% endif %}
+   </body>
+</html>
+{% endblock %}

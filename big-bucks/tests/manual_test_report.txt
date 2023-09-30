@@ -1,0 +1,28 @@
+Test Report for transactions.py:
+
+
+The code handles both GET and POST requests. Upon a GET request, the function can retrieve all transactions for the current user from the database and render “transaction/transaction.html” template. Upon a POST request, the function extracts the form data submitted by the user. The code can update the transaction table, accounts table, and users_assets table when the user makes a transaction type (buy/sell). The shares, remaining balances, and assets will all be updated. We have tried tracking the balance and shares after the user transacts and it all works perfectly. We have also tested that if the user does not have sufficient stock shares in the account, then when he clicks “transact now”, there will be an error showing insufficient shares to sell. Also, we tested that if the user does not have enough balance in the account to buy specific shares of stocks, there will also be an error showing insufficient balance to complete the transaction. If the user makes a successful transaction, the transaction record on the webpage will be updated. Transaction records can show all transaction histories the user makes. It has passed all tests.
+
+
+
+
+Test Report for charting.py:
+
+
+The file provides a function to create different types of plots to help users to analyze stocks. We have tried and tested different date ranges, stocks, and plot types, they all matched the plots shown on yahoo finance and other stock analysis websites. Tests were passed and all plots were generated correctly upon users’ requests. For 1. “Adjusted Closing Price” Test: We tested the function's ability to generate a line chart of the adjusted closing price of a stock symbol over a specified date range. We used the AAPL stock symbol for the test. 2. “Daily Return” Test: We tested the function's ability to generate a scatter plot of the daily returns of a stock symbol over a specified date range. We used the AAPL stock symbol for the test. 3. “Today vs. Yesterday Returns” Test: We tested the function's ability to generate a scatter plot of the correlation between today's and yesterday's returns of a stock symbol over a specified date range. We used the AAPL stock symbol for the test. 4. “Log Return” Test: We tested the function's ability to generate a histogram of the log return of a stock symbol over a specified date range. We used the AAPL stock symbol for the test. 5. “Stock vs. Index Time Series Return” Test: We tested the function's ability to generate a line chart of the daily returns of a stock symbol compared to an index, specifically S&P 500, over a specified date range. We used the AAPL stock symbol for the test. 6. “Stock Return vs. Index Return” Test: We tested the function's ability to generate a scatter plot of the correlation between the daily returns of a stock symbol and an index, specifically S&P 500, over a specified date range. We used the AAPL stock symbol for the test. 7. “Daily Price Movement” Test: We tested the function's ability to generate a line chart of the daily price movement of a stock symbol compared to an index, particularly S&P 500, over a specified date range. We used the AAPL stock symbol for the test.
+
+
+
+
+
+
+
+
+Test Report for alvant.py:
+Conducted manual test to see whether I fetched correct results
+Test case 1: AAPL 2023-04-19 close=167.63 adjusted_close=167.63
+results: correct record in db
+Test case 2: TSLA 2020-07-15 close=1546.01 adjusted_close=103.0673
+results: correct record in db
+Test case 3: SPY 2021-09-17 close=441.4 adjusted_close=431.13
+results: correct record in db

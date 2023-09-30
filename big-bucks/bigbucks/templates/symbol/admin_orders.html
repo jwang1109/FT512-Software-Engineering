@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<br>
+<h2>Market Summary</h2>
+    <h3>Search the date data</h3>
+    <form method="post" action="/symbol/admin_orders">
+        <label for="start_date">Start Date:</label>
+        <input type="date" class="form-control" id="start_date" name="start_date" required>
+        <br><br>
+        <label for="end_date">End Date:</label>
+        <input type="date" class="form-control" id="end_date" name="end_date" required>
+        <br><br>
+        <div class="button-container">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Symbol</th>
+      <th scope="col">Name</th>
+      <th scope="col">Shares Bought</th>
+      <th scope="col">Shares Sold</th>
+    </tr>
+    </thead>
+  <tbody>
+    {% for order in orders %}
+    <tr>
+      <td>{{ order['symbol'] }}</td>
+      <td>{{ order['name'] }}</td>
+      <td>{{ order['total_bought'] }}</td>
+      <td>{{ order['total_sold'] }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

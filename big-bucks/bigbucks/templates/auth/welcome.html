@@ -1,0 +1,143 @@
+{% extends 'base.html' %}
+{% block header %}
+
+{% endblock %}
+{% block title %}
+Register
+{% endblock %}
+
+{% block content %}
+
+  <title>Bigbucks - Welcome</title>
+
+    <style>
+        .btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 150px;
+            height: 60px;
+            {#line-height: 60px;#}
+            text-align: center;
+            color: #fff;
+            font-size: 18px;
+            text-transform: uppercase;
+            cursor: pointer;
+            background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+            background-size: 400%;
+            border-radius: 60px;
+        }
+
+        .btn:hover {
+            animation: animate 8s linear infinite;
+        }
+
+        @keyframes animate {
+            0% {
+                background-position: 0%;
+            }
+
+            100% {
+                background-position: 400%;
+            }
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            z-index: -1;
+            background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+            background-size: 400%;
+            border-radius: 40px;
+            opacity: 0;
+            transition: 0.5s;
+        }
+
+        .btn:hover::before {
+            filter: blur(20px);
+            opacity: 1;
+            animation: animate 8s linear infinite;
+        }
+    </style>
+
+
+  <style>
+  .box{
+      font-size: 24px;
+  }
+  .this-div{
+	background-image: -webkit-linear-gradient(left, #147B96, #E6D205 25%, #147B96 50%, #E6D205 75%, #147B96);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-size: 200% 100%;
+    -webkit-animation:  maskedAnimation 4s infinite linear;
+    font-size: 50px;
+}
+
+@keyframes maskedAnimation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}
+
+     .get-started-button {
+      position: absolute;
+      right: 300px;
+      top: 750px;
+      transform: translateY(-50%);
+    }
+    body {
+      background-color: #f0f0f0;
+    }
+    .welcome-section {
+      min-height: 100vh;
+    }
+    .description {
+      color: #333;
+    }
+  </style>
+  <body>
+    <div class="container-fluid">
+      <div class="row align-items-center welcome-section">
+        <div class="col-md-6">
+
+          <img src="{{ url_for('static', filename='logo/dark.png') }}" alt="Bigbucks Image" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <div class="description">
+               <h1 class="this-div">Welcome to Bigbucks</h1>
+            <span class="box"></span>
+              <div class="get-started-button">
+            <input type="submit" class="btn" value="Get Started" onclick="window.location.href='{{ url_for('auth.login') }}'; return false;">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".box", {
+        strings: [
+          "Bigbucks is a cutting-edge stock trading platform that allows you to access real-time market data, discover investment opportunities, and manage your portfolio with ease. Our advanced tools and analytics help you make informed decisions to maximize your profits and minimize risks."
+        ],
+        typeSpeed: 12,
+        backSpeed: 0,
+        loop: false,
+        cursorChar: "|",
+        contentType: "text",
+        backDelay: 500,
+        startDelay: 0
+      });
+    </script>
+  </body>
+{% endblock %}
+{% block footer %}
+{% endblock %}

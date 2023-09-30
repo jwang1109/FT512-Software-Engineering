@@ -1,0 +1,47 @@
+{% extends 'home/home.html' %}
+
+{% block content %}
+<br>
+  <h1>Stock Analysis</h1>
+  <form method="POST">
+    <div class="form-group">
+      <label for="stock_symbol">Stock Symbol</label>
+      <input type="text" class="form-control" id="stock_symbol" name="stock_symbol" required value="{{ request.form['stock_symbol'] }}">
+    </div>
+    <div class="form-group">
+      <label for="start_date">Start Date</label>
+      <input type="date" class="form-control" id="start_date" name="start_date" required value="{{ request.form['start_date'] }}">
+    </div>
+    <div class="form-group">
+      <label for="end_date">End Date</label>
+      <input type="date" class="form-control" id="end_date" name="end_date" required value="{{ request.form['end_date'] }}">
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="plot_type">Select a Plot Type:</label>
+      <select class="form-control" id="plot_type" name="plot_type" required>
+        <option value="">-- Select Plot Type --</option>
+        <option value="adjusted_closing_price" {% if request.form['plot_type'] == 'adjusted_closing_price' %} selected {% endif %}>Adjusted Closing Price of Stock</option>
+        <option value="area_graph" {% if request.form['plot_type'] == 'area_graph' %} selected {% endif %}>Area Graph of Stock Prices</option>
+        <option value="daily_return" {% if request.form['plot_type'] == 'daily_return' %} selected {% endif %}>Daily Return of Stock</option>
+        <option value="log_return" {% if request.form['plot_type'] == 'log_return' %} selected {% endif %}>Log Return of Stock</option>
+        <option value="today_vs_yesterday_returns" {% if request.form['plot_type'] == 'today_vs_yesterday_returns' %} selected {% endif %}>Today's Return vs. Yesterday's Return of Stock</option>
+        <option value="simple_return" {% if request.form['plot_type'] == 'simple_return' %} selected {% endif %}>Simple Return of Stock</option>
+        <option value="stock_vs_index_adjusted_close_price" {% if request.form['plot_type'] == 'stock_vs_index_adjusted_close_price' %} selected {% endif %}>Adjusted Closing Price of Stock and Index</option>
+        <option value="daily_price_movement" {% if request.form['plot_type'] == 'daily_price_movement' %} selected {% endif %}>Daily Price Movement of Stock and Index</option>
+        <option value="stock_vs_index_time_series_return" {% if request.form['plot_type'] == 'stock_vs_index_time_series_return' %} selected {% endif %}>Stock Return vs. Index Return Time Series Plot</option>
+        <option value="stock_return_vs_index_return" {% if request.form['plot_type'] == 'stock_return_vs_index_return' %} selected {% endif %}>Stock Return vs. Index Return with Regression</option>
+      </select>
+    </div>
+    <br>
+    <div class="button-container">
+      <input type="submit" value="View Plots">
+    </div>
+  </form>
+
+  {% if plot_html %}
+    <div class="chart-container">
+      {{plot_html|safe }}
+    </div>
+  {% endif %}
+{% endblock %}

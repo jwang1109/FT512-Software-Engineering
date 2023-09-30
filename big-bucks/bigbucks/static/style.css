@@ -1,0 +1,142 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #32332a;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #f2f2f2;
+  background-image: url('https://source.unsplash.com/1600x900/?finance,trading');
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-container input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Cards */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #32332a;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: 500;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Form */
+form {
+  margin: auto;
+  width: 50%;
+  max-width: 500px;
+}
+
+input[type="text"], input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  background-color: #26890d;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #3eaa1a;
+  cursor: pointer;
+}

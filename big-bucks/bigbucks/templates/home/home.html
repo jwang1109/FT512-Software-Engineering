@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% block header %}
+<div class="container-fluid shadow-sm" style="background-color: #32332A;border-top: 1px solid rgba(255, 255, 255, 0.5);">
+  <div class="row" style="color: green;">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <a href="{{url_for('transactions.transaction')}}" style="color: white;">Trade</a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <a href="{{url_for('charting.charting')}}" style="color: white;">Analysis</a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <a href="{{url_for('portfolio_builder.builder')}}" style="color: white;">Portfolio</a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+{% block content %}
+<br>
+
+<h1> Account </h1>
+    <div class="button-container">
+      <input type="submit" value="View balance" onclick="toggleAccount()">
+    </div>
+<div id="account-section" style="display:none;text-align: center;">
+  <td>account balance ($): {{ balance['balance'] }}</td>
+</div>
+
+<script>
+  function toggleAccount() {
+    var section = document.getElementById("account-section");
+    if (section.style.display === "none") {
+	section.style.display = "block";
+    } else {
+	section.style.display = "none";
+    }
+}
+</script>
+<br>
+<h1>Holdings</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Symbol</th>
+        <th scope="col">Asset name</th>
+        <th scope="col">Shares Held</th>
+        <th scope="col">Price per Share (Last Day Close)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for holding in holdings %}
+          {% if holding['shares'] != 0 %}
+      <tr>
+        <td>{{ holding['symbol'] }}</td>
+        <td>{{ holding['name'] }}</td>
+          <td>{{ holding['shares'] }}</td>
+          <td>{{ holding['adjusted_close']}}</td>
+      </tr>
+          {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+  
+  {% if plot_html %}
+  <div class="chart-container">
+    {{plot_html|safe }}
+  </div>
+  {% endif %}
+  
+
+  {% if error %}
+  <p style="color: red;">{{ error }}</p>
+  <p>Buy your first asset to begin your finance journey!</p>
+  {% endif %}
+
+  {% if portfolio %}
+    <ul>
+        <br>
+        <p>Portfolio return: {{ '{:.2f}'.format(portfolio.port_rtn) }}</p>
+        <p>Portfolio standard deviation: {{ '{:.2f}'.format(portfolio.port_sdv) }}</p>
+        <p>Portfolio Sharpe Ratio: {{ '{:.2f}'.format(portfolio.port_shp) }}</p>
+    </ul>
+    <br>
+    <ul>
+      <h4>Optimal portfolio weights:</h4>
+      <ul>
+         <li style="display: inline-block">{{ assets }}</li>
+         {% for weight in portfolio.opti_wgt %}
+         <li style="display: inline-block">{{ '{:.2f}'.format(weight) }}</li>
+         {% endfor %}
+      </ul>
+      <br>
+      <p>Optimal portfolio return: {{ '{:.2f}'.format(portfolio.opti_rtn) }}</p>
+      <p>Optimal portfolio standard deviation: {{ '{:.2f}'.format(portfolio.opti_sdv) }}</p>
+      <p>Optimal Portfolio Sharpe Ratio: {{ '{:.2f}'.format(portfolio.opti_shp) }}</p>
+    </ul>
+    <div>
+       <chart>
+       {{ chart|safe }}
+        </chart>
+    </div>
+  {% else %}
+      <p>Welcome to Bigbuck, click Transaction to buy and sell.</p>
+  {% endif %}
+  {% endblock %}
+  
+{% block footer %}
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+{% endblock %}

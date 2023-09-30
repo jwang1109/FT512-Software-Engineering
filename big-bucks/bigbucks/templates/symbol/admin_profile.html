@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<br>
+<h2>Overall Profile</h2>
+<form method="post" action="/symbol/overall_profile">
+    <label for="start_date">Start Date:</label>
+    <input type="date" class="form-control" id="start_date" name="start_date" required>
+    <label for="end_date">End Date:</label>
+    <input type="date" class="form-control" id="end_date" name="end_date" required>
+    <br>
+    <div class="button-container">
+      <input type="submit" value="Submit">
+    </div>
+</form>
+<br>
+<h2>Portfolio Result:</h2>
+      {% if error %}
+      <p style="color: red;">{{ error }}</p>
+      {% endif %}
+      {% if portfolio %}
+      <ul>
+         <h4>Current portfolio weights:</h4>
+         <ul>
+            <li style="display: inline-block">{{ assets }}</li>
+            {% for weight in portfolio.weights %}
+            <li style="display: inline-block">{{ '{:.2f}'.format(weight) }}</li>
+            {% endfor %}
+         </ul>
+         <div>
+            <chart>
+               {{ port_pie|safe }}
+            </chart>
+         </div>
+         <br>
+         <p>Portfolio return: {{ '{:.2f}'.format(portfolio.port_rtn) }}</p>
+         <p>Portfolio standard deviation: {{ '{:.2f}'.format(portfolio.port_sdv) }}</p>
+         <p>Portfolio Sharpe Ratio: {{ '{:.2f}'.format(portfolio.port_shp) }}</p>
+      </ul>
+      <br>
+      <ul>
+         <h4>Optimal portfolio weights:</h4>
+         <ul>
+            <li style="display: inline-block">{{ assets }}</li>
+            {% for weight in portfolio.opti_wgt %}
+            <li style="display: inline-block">{{ '{:.2f}'.format(weight) }}</li>
+            {% endfor %}
+         </ul>
+         <div>
+            <chart>
+               {{ opti_pie|safe }}
+            </chart>
+         </div>
+         <br>
+         <p>Optimal portfolio return: {{ '{:.2f}'.format(portfolio.opti_rtn) }}</p>
+         <p>Optimal portfolio standard deviation: {{ '{:.2f}'.format(portfolio.opti_sdv) }}</p>
+         <p>Optimal Portfolio Sharpe Ratio: {{ '{:.2f}'.format(portfolio.opti_shp) }}</p>
+      </ul>
+      <div>
+         <chart>
+         {{ chart|safe }}
+         </chart>
+      </div>
+      {% else %}
+      <p>Click submit to view the overall profile.</p>
+      {% endif %}
+   </body>
+</html>
+{% endblock %}
