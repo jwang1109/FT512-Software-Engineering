@@ -1,0 +1,10 @@
+# Format: netid, week, Activity (Read/Watch/Do/Coding/...), title, time in minutes (e.g. 2 hours and 45 minutes would be recorded as 165)
+# header: netid, week, task, title, minutes
+# example row: pjm52, week1, Read, Bullet, 180
+jw822,week1,Read,Bullet,100
+jw822,week1,Code,Square,15
+jw822,week1,Code,kwic,75
+jw822,week1,Read,VisiCalc,70
+jw822,week1,Video,Software History, 100
+jw822,week1,Code,The Money Example, 960
+
